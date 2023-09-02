@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <title>Frontend Mentor | Fylo data storage component</title>
+  </head>
+  <body class="min-h-screen bg-very-dark-blue flex items-center">
+    <main class="flex items-center m-auto">
+      <div class="flex flex-col lg:flex-row items-end mx-auto gap-[2em]">
+        <div
+          class="w-[326px] h-[210px] lg:w-[350px] bg-dark-blue rounded-md rounded-tr-[100px] shadow-md flex flex-col justify-evenly pl-[41.13px] lg:rounded-br-none"
+        >
+          <div>
+            <img src="images/logo.svg" alt="" />
+          </div>
+          <div class="flex gap-[1em]">
+            <div
+              class="w-[48.15px] h-[48px] rounded-md bg-very-dark-blue flex items-center justify-center"
+            >
+              <img
+                class="cursor-pointer"
+                src="images/icon-document.svg"
+                alt=""
+              />
+            </div>
+            <div
+              class="w-[48.15px] h-[48px] rounded-md bg-very-dark-blue flex items-center justify-center"
+            >
+              <img class="cursor-pointer" src="images/icon-folder.svg" alt="" />
+            </div>
+            <div
+              class="w-[48.15px] h-[48px] rounded-md bg-very-dark-blue flex items-center justify-center"
+            >
+              <img class="cursor-pointer" src="images/icon-upload.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-[326px] h-[160px] lg:w-[540px] lg:h-[154px] bg-dark-blue rounded-md shadow-md flex flex-col items-center lg:items-start lg:pl-[2.5em] pt-4 justify-end"
+        >
+          <div class="lg:relative lg:top-[30px]">
+            <div>
+              <p
+                class="font-sans font-normal text-grayish-blue text-[14px] pb-[6px]"
+              >
+                You’ve used
+                <span class="font-bold text-[#ffffff]">815 GB</span> of your
+                storage
+              </p>
+            </div>
+            <div class="w-64 lg:w-[459px] h-5 bg-very-dark-blue rounded-full">
+              <div
+                class="h-full bg-gradient-to-r from-gradient-1 to-gradient-2 rounded-full animate-pulse transition duration-700 ease-in-out"
+                style="width: 75%"
+              ></div>
+            </div>
+            <div class="flex gap-[11em] lg:gap-[24em] relative top-[10px]">
+              <p class="font-sans font-bold text-[#ffffff] text-[12px]">0 GB</p>
+              <p class="font-sans font-bold text-[#ffffff] text-[12px]">
+                1000 GB
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="w-[179px] h-[72px] bg-[#ffffff] rounded-md flex items-center justify-center relative top-[37px] lg:top-[-120px] lg:right-[-277px]"
+          >
+            <p
+              class="font-sans font-bold text-very-dark-blue text-[40px] leading-[40px]"
+            >
+              185
+              <span
+                class="text-[12px] tracking-[1px] text-grayish-blue relative top-[-6px]"
+                >GB Left</span
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
